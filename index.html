@@ -48,7 +48,7 @@
                 <div class="lannister__descricao"><h3 class="lannister__titulo">Lannister</h3>
                     <p class="lannister__paragrafo">A Casa Baratheon de Porto Real é uma ramificação extinta da Casa Baratheon de Ponta Tempestade, também extinta. Foi fundada após a derrota e exílio da dinastia Targaryen na Rebelião de Robert e foi, desde então, a casa real de Westeros.</p>
                 </div>
-                <div><img src="/imagens/lannister.jpg" alt=""></div>
+                <div><img class="lannister__imagem" src="/imagens/lannister.jpg" alt=""></div>
             </div>
 
             <div class="baratheon">
@@ -64,16 +64,23 @@
                     Eles eram uma das famílias conhecidas como Senhores de dragões que regiam o Império Valiriano. Alguns anos antes da Perdição de Valíria, os Targaryens abandonaram seu lar em Essos e se assentaram em Pedra do Dragão, uma antiga fortaleza valiriana na costa de Westeros. 
                     </p>
                 </div>
-                <div><img src="/imagens/targaryen.jpg" alt=""></div>
+                <div><img class="targaryen__imagem" src="/imagens/targaryen.jpg" alt=""></div>
             </div>
         </div>
 
         <div class="personagens"><h1 class="personagens__titulo">Personagens</h1> </div>
             <div class="personagens__fotos">
-            <img src="/imagens/Jon Stark.jpg" alt="">
-            <img src="/imagens/Daenerys.jpg" alt="">
-            <img src="/imagens/Tyrion.jpg" alt="">
-            <img src="/imagens/Cersei.jpg" alt="">
+            <img class="personagens__fotos-imagem" id="jon" onclick="abrirFotoJon()" src="/imagens/Jon Stark.jpg" alt="">
+            <img class="personagens__fotos-imagem" id="daenerys" onclick="abrirFotoDaenerys()" src="/imagens/Daenerys.jpg" alt="">
+            <img class="personagens__fotos-imagem" id="tyrion" onclick="abrirFotoTyrion()" src="/imagens/Tyrion.jpg" alt="">
+            <img class="personagens__fotos-imagem" id="cersei" onclick="abrirFotoCersei()" src="/imagens/Cersei.jpg" alt="">
+        </div>
+        <div class="informacoes" id="informacoes">
+            <div class="animacao">
+            <p class="infomacoes__dados">Nome: <span id="nome"></span></p>
+            <p class="infomacoes__dados">Sobrenome: <span id="sobrenome"></span></p>
+            <p class="infomacoes__dados">Casa: <span id="casa"></span></p>
+            <p class="infomacoes__dados">Título: <span id="titulo"></span></p></div>
         </div>
 
         <div class="galeria"><h1 class="galeria__titulo">Galeria</h1></div>

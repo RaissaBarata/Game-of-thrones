@@ -92,10 +92,14 @@ nav a:hover {
 .trailer{
     display: flex;
     justify-content: center;
+    margin: 20px 150px;
+    padding: 20px;
+    border-top: 3px solid #AA0000;
 }
 
+
 .sobre__titulo{
-   border-bottom: 1px solid  #AA0000;
+   border-bottom: 3px solid  #AA0000;
    font-size: 50px; 
    font-family: 'MedievalSharp', cursive;
    text-align: center;
@@ -113,7 +117,7 @@ nav a:hover {
 }
 
 .casas__titulo{
-    border-bottom: 1px solid  #AA0000;
+    border-bottom: 3px solid  #AA0000;
     font-size: 50px; 
     font-family: 'MedievalSharp', cursive;
     text-align: center;
@@ -176,7 +180,7 @@ nav a:hover {
     text-align: center;
     color: #FFFFFF;
     line-height: 30px;
-    font-size: 28px;
+    font-size: 25px;
 }
 
 .lannister__descricao{
@@ -192,7 +196,7 @@ nav a:hover {
 }
 
 .baratheon__titulo{
-   margin: 50px 200px;
+   margin: 50px 150px;
    text-align: center;
    font-size: 40px;
    font-family: 'MedievalSharp', cursive;
@@ -217,11 +221,11 @@ nav a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 100px 200px;
+    margin: 100px 150px;
 }
 
 .targaryen__titulo{
-    margin: 50px 200px;
+    margin: 50px 150px;
     text-align: center;
     font-size: 40px;
     font-family: 'MedievalSharp', cursive;
@@ -244,10 +248,11 @@ nav a:hover {
 .personagens__fotos{
     display: flex;
     justify-content: space-around;
+    cursor: pointer;
 }
 
 .personagens__titulo{
-    border-bottom: 1px solid  #AA0000;
+    border-bottom: 3px solid  #AA0000;
     font-size: 50px; 
     font-family: 'MedievalSharp', cursive;
     text-align: center;
@@ -304,6 +309,161 @@ footer{
     height: 100%;
     display: none;
   }
+
+  .informacoes {
+    display: none;
+    color:white;
+    font-family: 'MedievalSharp', cursive;
+    margin-top: 40px;
+    margin-bottom:20px;
+    margin-left: 40%;
+    margin-right: 50%;
+    width: 15%;
+    font-size: 25px;
+    text-align:center;
+    
+}
+
+.informacoes:hover {
+    transform: translateX(-50%);
+}
+
+
+@media screen and (max-width: 768px) {
+    header {
+        background-size: 100%;
+        width: 100%;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .sobre__paragrafo {
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .stark {
+        margin: 0;
+    }
+
+    .stark__descricao {
+        width: 100%;
+        text-align: center;
+    }
+
+    .stark__titulo {
+        margin: 0;
+        text-align: center;
+    }
+
+    .stark__imagem {
+       display: none;
+    }
+
+    .stark__paragrafo {
+       font-size: 16px;
+       width: 100%;
+    }
+
+    .lannister {
+        margin: 0;
+    }
+
+    .lannister__descricao {
+        width: 100%;
+    }
+
+    .lannister__titulo {
+        margin: 0;
+        text-align: center;
+    }
+
+    .lannister__imagem {
+        display: none;
+    }
+
+    .lannister__paragrafo {
+        font-size: 16px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .baratheon {
+        margin: 0;
+    }
+
+    .baratheon__descricao {
+        width: 100%;
+    }
+
+    .baratheon__imagem {
+        display: none;
+    }
+
+    .baratheon__titulo {
+        margin: 0;
+    }
+
+    .baratheon__paragrafo{
+        margin: 0;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .targaryen {
+        margin: 0;
+    }
+
+    .targaryen__descricao {
+        width: 100%;
+    }
+
+    .targaryen__imagem {
+        display: none;
+    }
+
+    .targaryen__titulo {
+        margin: 0;
+    }
+
+    .targaryen__paragrafo {
+        margin: 0;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .personagens__fotos img {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+    }
+
+    .personagens__fotos {
+        margin: 25%;
+        position: relative;
+        left: 50%;
+    }
+
+    .informacoes {
+        display: none;
+        color:white;
+        font-family: 'MedievalSharp', cursive;
+        font-size: 16px;
+        text-align:center;
+        position: relative;
+        width: 100%;
+        left: 20%;
+        
+    }
+
+    
+}
+
+
+
 
   
 
